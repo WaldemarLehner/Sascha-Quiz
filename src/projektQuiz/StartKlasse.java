@@ -11,10 +11,10 @@ static int punkte = 0;
   public static void main(String[] args){
     field1 = new Scanner(System.in);
     //Fragen erzeugen
-    fragen.add(new FrageObjekt("FRAGE","RICHTIGE ANTWORT","FALSCHE ANTWORT","FALSCHE ANTWORT","FALSCHE ANTWORT"));
-    fragen.add(new FrageObjekt("FRAGE","RICHTIGE ANTWORT","FALSCHE ANTWORT","FALSCHE ANTWORT","FALSCHE ANTWORT"));
-    fragen.add(new FrageObjekt("FRAGE","RICHTIGE ANTWORT","FALSCHE ANTWORT","FALSCHE ANTWORT","FALSCHE ANTWORT"));
-    fragen.add(new FrageObjekt("FRAGE","RICHTIGE ANTWORT","FALSCHE ANTWORT","FALSCHE ANTWORT","FALSCHE ANTWORT"));
+    fragen.add(new FrageObjekt("Wie viele Bunderländer hat Deutschland?","16","18","15","17"));
+    fragen.add(new FrageObjekt("Welches folgender Länder grenzt nicht an Deutschland an?","Liechtenstein","Tschechien","Niederlande","Dänemark"));
+    fragen.add(new FrageObjekt("Welches Land hat die größte Fläche?","Russland","Kanada","USA","China"));
+    fragen.add(new FrageObjekt("Welches ist das kleinste Bundesland Deutschlands?","Bremen","Hamburg","Saarland","Thüringen"));
     //hier können noch mehr Fragen hin
     start();
   }
